@@ -8,12 +8,35 @@
     android:padding="20dp"
     android:stretchColumns="0"
     tools:context=".ResultActivity">
+    <TableRow>
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="최다득표한사진"
+            />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgv"
+            android:layout_weight="40"
+            android:layout_height="150dp"
+            android:layout_span="2"
+            android:gravity="center"
+            android:src="@drawable/rapis"/>
+    </TableRow>
     <TableRow
         android:layout_marginBottom="20dp">
+
         <TextView
             android:id="@+id/text01"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진1"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -22,7 +45,7 @@
             android:id="@+id/rb1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>
@@ -32,6 +55,7 @@
             android:id="@+id/text02"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진2"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -40,7 +64,7 @@
             android:id="@+id/rb2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>
@@ -50,6 +74,7 @@
             android:id="@+id/text03"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진3"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -58,7 +83,7 @@
             android:id="@+id/rb3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>
@@ -68,6 +93,7 @@
             android:id="@+id/text04"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진4"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -76,7 +102,7 @@
             android:id="@+id/rb4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>
@@ -86,6 +112,7 @@
             android:id="@+id/text05"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진5"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -94,7 +121,7 @@
             android:id="@+id/rb5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>
@@ -104,6 +131,7 @@
             android:id="@+id/text06"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진6"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -112,7 +140,7 @@
             android:id="@+id/rb6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>
@@ -122,6 +150,7 @@
             android:id="@+id/text07"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진7"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -130,7 +159,7 @@
             android:id="@+id/rb7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>
@@ -140,6 +169,7 @@
             android:id="@+id/text08"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진8"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -148,7 +178,7 @@
             android:id="@+id/rb8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>
@@ -158,6 +188,7 @@
             android:id="@+id/text09"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:text="사진9"
             android:textSize="20sp"
             android:layout_gravity="center_vertical"/>
@@ -166,7 +197,7 @@
             android:id="@+id/rb9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:attr/ratingBarStyleIndicator"
+            style="?android:attr/ratingBarStyleSmall"
             android:layout_gravity="right"
             />
     </TableRow>

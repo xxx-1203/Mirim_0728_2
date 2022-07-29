@@ -77,7 +77,7 @@
         android:id="@+id/btn_vote_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="투표"/>
+        android:text="투표결과"/>
 
 
 </LinearLayout>
